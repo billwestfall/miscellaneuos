@@ -1,1 +1,1 @@
-curl -D- -u <user>:'password' -X POST -H "plication/json" --data '{"jql":"project = QAS and status=closed","startAt":0,"maxResults":5}' "https://jira.com/jira/rest/api/2/search" > qas_list.json
+curl -D- -u <user>:'password' -X POST -H "Content-Type: application/json" --data '{"jql":"project = XXX and status=closed","startAt":0,"maxResults":5}' "https://jira.com/jira/rest/api/2/search" > qas_list.json
