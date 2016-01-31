@@ -1,0 +1,168 @@
+mvn -e -q exec:java -Dexec.mainClass="org.apache.lucene.benchmark.utils.ExtractReuters" -Dexec.args="reuters21578/ reuters-extracted"
+ls
+cd ..
+ls
+mvn -e -q exec:java -Dexec.mainClass="org.apache.lucene.benchmark.utils.ExtractReuters" -Dexec.args="testdata/reuters21578/ testdata/reuters-extracted"
+ls
+ls bin/
+ls testdata/
+cd testdata/
+ls 
+ls -al
+cp -R reuters21578/ /Users/billw/Documents/old/mahout/mahout/examples/
+cd /Users/billw/Documents/old/mahout/mahout/examples/
+ls
+ls
+pwd
+mkdir reuters
+ls
+mvn -e -q exec:java -Dexec.mainClass="org.apache.lucene.benchmark.utils.ExtractReuters" -Dexec.args="reuters/ reuters-extracted"
+ls
+cp -R /Users/billw/Downloads/tdunning-MiA-5b8956f/testdata/reuters-extracted/ /Users/billw/Documents/old/mahout/mahout/examples/reuters-extracted
+ls
+ls reuters-extracted/
+ls
+ls bin/
+cd ..
+ls
+ls b
+ls bin/
+ls bin/org/
+ls bin/org/apache/
+ls bin/org/apache/mahout/
+ls
+cd examples/
+ls
+ls bin/
+ls /Users/billw/Downloads/tdunning-MiA-5b8956f/
+ls /Users/billw/Downloads/tdunning-MiA-5b8956f/bin/
+ls /Users/billw/Downloads/tdunning-MiA-5b8956f/testdata/
+ls
+ls bin/
+ls bin/r
+ls bin/resources/
+ls
+pwd
+ls 
+cd ..
+ls
+ls bin/
+pwd
+ls
+cd examples/
+ls
+ls bin/
+ls -al
+cd bin/
+ls
+cat cluster-
+cat cluster-reuters.sh 
+ls
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+ls examples/
+ls examples/bin/
+mv examples/reuters examples/old_reuters
+mv examples/reuters-extracted/ examples/old_reuters_extracted
+ls
+ls
+examples/bin/cluster-reuters.sh
+ls b
+ls examples/bin/
+ls
+ls bin/
+ls examples/
+ls examples/bin/
+maout
+mahout
+ls /usr/local/bin/
+ls
+brew install mahout
+mahout
+ls
+ls examples/
+pwd
+mv examples/old_reuters examples/reuters
+mv examples/old_reuters_extracted/ examples/reuters-extracted
+ls
+mahout seqdirectory -c UTF-8 -i examples/reuters-extracted/ -o reuters-seqfiles
+ls
+ls reuters-seqfiles/
+ls -al reuters-seqfiles/
+mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors -ow
+ls
+ls reuters-vectors/
+sudo mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors -ow
+ls -al /Users/
+ls -al /Users/billw/
+ls -al /Users/billw/Documents/
+ls -al /Users/billw/Documents/old
+ls -al /Users/billw/Documents/old/mahout/
+ls -al /Users/billw/Documents/old/mahout/mahout/
+sudo chown billw:administrators /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+groups
+sudo chown billw:everyone /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+ls -al /Users/billw/Documents/old/mahout/mahout/
+sudo mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors -ow
+ls -al /Users/billw/Documents/old/mahout/mahout/
+sudo chown billw:everyone /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+ls -al /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+sudo chown -R billw:everyone /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+ls -al /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+sudo chmod 755 /Users/billw/Documents/old/mahout/mahout/reuters-vectors/.dictionary.file-0.crc 
+sudo chmod 755 /Users/billw/Documents/old/mahout/mahout/reuters-vectors/dictionary.file-0 
+mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors -ow
+ls -al /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+ls -al /Users/billw/Documents/old/mahout/mahout/
+ls -al U
+ls -al /Users/
+ls -al /Users/billw/Documents/old/mahout/mahout/reuters-vectors/
+ls
+pwd
+ls -al /
+ls -al /private/
+ls -al /private/tmp/
+ls
+pwd
+ls
+cd ..
+ls
+cp -R mahout/ /private/tmp/mahout
+ls
+cd /private/tmp/
+ls
+cd mahout/
+ls
+mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors -ow
+ls
+ls reuters-vectors/
+ls
+ls -al reuters-vectors/
+ls -alh reuters-vectors/
+ls /usr/share/dict
+ls /usr/share/dict/words 
+ls -al /usr/share/dict/
+cat /usr/share/dict/README 
+ls -al /Users/billw/Documents/old/dictionaries/
+ls
+ls -al /Users/billw/Downloads/wfrench-1.2.3/
+less /Users/billw/Downloads/wfrench-1.2.3/dico 
+cp /Users/billw/Downloads/wfrench-1.2.3/dico /Users/billw/Documents/old/dictionaries
+ls /Users/billw/Documents/old/dictionaries/
+pwd
+ls
+mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors-bigram -ow -a org.apache.lucene.analysis.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md3 -x 90 -ng 2 -ml 50 -seq
+ls
+mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors-bigram -ow -a org.apache.lucene.analysis.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq
+pwd
+mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors-bigram -ow -a org.apache.lucene.analysis.core.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq
+ls
+ls reuters-vectors-bigram/
+mahout seq2sparse -i reuters-seqfiles/ -o reuters-normalized-bigram -ow -a org.apache.lucene.analysis.core.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq -n 2
+history
+history | cut -c 8-
+MacBook-Air:mahout billw$ 
