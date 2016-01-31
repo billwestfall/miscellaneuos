@@ -1,0 +1,31 @@
+760  echo "start of k-means"
+  761  mahout kmeans -i reuters-vectors/tfidf-vectors/ -c reuters-initial-clusters -o reuters-kmeans-clusters -dm org.apache.mahout.common.distance.SquaredEuclideanDistanceMeasure -cd 1.0 -k 20 -x 20 cl
+  762  mahout kmeans -i reuters-vectors/tfidf-vectors/ -c reuters-initial-clusters -o reuters-kmeans-clusters -dm org.apache.mahout.common.distance.SquaredEuclideanDistanceMeasure -cd 1.0 -k 20 -x 20 -cl
+  763  ls
+  764  mahout clusterdump -dt sequencefile -d reuters-vectors/dictionary.file-* -s reuters-kmeans-clusters/clusters-19 -b 10 -n 10
+  765  mahout -h
+  766  mahout clusterdump -h
+  767  ls reuters-kmeans-clusters/
+  768  mahout clusterdump -dt sequencefile -d reuters-vectors/dictionary.file-* -s reuters-kmeans-clusters/clusters-12-final/ -b 10 -n 10
+  769  mahout clusterdump -dt sequencefile -d reuters-vectors/dictionary.file-* -b 10 -n 10
+  770  ls 
+  771  ls reuters-vectors
+  772  ls reuters-kmeans-clusters/
+  773  ls reuters-kmeans-clusters/clusters-12-final/
+  774  ls reuters-kmeans-clusters/clusters-1
+  775  mahout clusterdump -dt sequencefile -d reuters-vectors/dictionary.file-* -i reuters-kmeans-clusters/clusters-12-final/ -o reuters-dumps/ -b 10 -n 10
+  776  pwd
+  777  ls
+  778  ls -al
+  779  less reuters-dumps 
+  780  tail -100 reuters-dumps 
+  781  mahout kmeans -i reuters-vectors/tfidf-vectors/ -c reuters-initial-clusters -o reuters-kmeans-clusters -dm org.apache.mahout.common.distance.CosineDistanceMeasure -cd 0.1 -k 20 -x 20 -cl
+  782  mahout kmeans -i reuters-vectors/tfidf-vectors/ -c reuters-initial-clusters -o reuters-kmeans-cos-clusters -dm org.apache.mahout.common.distance.CosineDistanceMeasure -cd 0.1 -k 20 -x 20 -cl
+  783  ls
+  784  ls reuters-kmeans-cos-clusters/
+  785  mahout clusterdump -dt sequencefile -d reuters-vectors/dictionary.file-* -i reuters-kmeans-cos-clusters/clusters-2-final/ -o reuters-dumps/ -b 10 -n 10
+  786  la
+  787  ls
+  788  less reuters-dumps 
+  789  history
+
