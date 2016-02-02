@@ -1,0 +1,8 @@
+506  mahout canopy -i reuters-vectors/tfidf-vectors/ -o reuters-canopy-centroids -dm org.apache.mahout.common.distance.EuclideanDistanceMeasure -t1 1500 -t2 2000
+  507  lsreuters-canopy-centroids/
+  508  ls reuters-canopy-centroids/
+  509  ls reuters-canopy-centroids/
+  510  mahout kmeans -i reuters-vectors/tfidf-vectors/ -c reuters-kmeans-clusters/ -dm org.apache.mahout.common.distance.TanimotoDistanceMeasure -c reuters-canopy-centroids/clusters-0-final/ -cd 0.1 -ow -x 20 -cl
+  511  mahout kmeans -i reuters-vectors/tfidf-vectors/ -o reuters-kmeans-clusters/ -dm org.apache.mahout.common.distance.TanimotoDistanceMeasure -c reuters-canopy-centroids/clusters-0-final/ -cd 0.1 -ow -x 20 -cl
+  512  mahout fkmeans -i reuters-vectors/tfidf-vectors/ -c reuters-fkmeans-centroids -o reuters-fkmeans-clusters -cd 1.0 -k 21 -m 2 -ow -x 10 -dm org.apache.mahout.common.distance.SquaredEuclideanDistanceMeasure
+  513  ls
