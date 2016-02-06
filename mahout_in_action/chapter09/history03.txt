@@ -1,0 +1,43 @@
+ 559  cp -R mahout/ /private/tmp/mahout
+  560  cd /private/tmp/mahout/
+  561  ls -al
+  562  ls reuters-vectors/
+  563  rm -rf reuters-vectors/
+  564  mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors -ow
+  565  ls reuters-vectors/
+  566  ls
+  567  pwd
+  568  pwd
+  569  mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors-bigram -ow -a org.apache.lucene.analysis.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq
+  570  ls
+  571  pwd
+  572  ls b
+  573  ls bin
+  574  ls bin/org/
+  575  ls bin/org/apache/
+  576  ls bin/org/apache/mahout/
+  577  ls bin/org/apache/mahout/cl
+  578  ls bin/org/apache/mahout/clustering/
+  579  ls
+  580  find / -name WhitespaceAnalyzer
+  581  sudo mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors-bigram -ow -a org.apache.lucene.analysis.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq
+  582  sudo mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors-bigram -ow -a org.apache.lucene.analysis.core.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq
+  583  mahout seq2sparse -i reuters-seqfiles/ -o reuters-vectors-bigram -ow -a org.apache.lucene.analysis.core.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq
+  584  mahout seq2sparse -i reuters-seqfiles/ -o reuters-normalized-bigram -ow -a org.apache.lucene.analysis.core.WhitespaceAnalyzer -chunk 200 -wt tfidf -s 5 -md 3 -x 90 -ng 2 -ml 50 -seq -n 2
+  585  mahout kmeans -i reuters-vectors/tfidf-vectors/ -c reuters-initial-clusters -o reuters-kmeans-clusters -dm org.apache.mahout.common.distance.SquaredEuclideanDistanceMeasure -cd 1.0 -k 20 -x 20 -cl
+  586  mahout clusterdump -dt sequencefile -d reuters-vectors/dictionary.file-* -i reuters-kmeans-clusters/clusters-12-final/ -o reuters-dumps/ -b 10 -n 10
+  587  mahout kmeans -i reuters-vectors/tfidf-vectors/ -c reuters-initial-clusters -o reuters-kmeans-cos-clusters -dm org.apache.mahout.common.distance.CosineDistanceMeasure -cd 0.1 -k 20 -x 20 -cl
+  588  mahout clusterdump -dt sequencefile -d reuters-vectors/dictionary.file-* -i reuters-kmeans-cos-clusters/clusters-2-final/ -o reuters-dumps/ -b 10 -n 10
+  589  mahout canopy -i reuters-vectors/tfidf-vectors/ -o reuters-canopy-centroids -dm org.apache.mahout.common.distance.EuclideanDistanceMeasure -t1 1500 -t2 2000
+  590  ls reuters-canopy-centroids/
+  591  mahout kmeans -i reuters-vectors/tfidf-vectors/ -o reuters-kmeans-clusters/ -dm org.apache.mahout.common.distance.TanimotoDistanceMeasure -c reuters-canopy-centroids/clusters-0-final/ -cd 0.1 -ow -x 20 -cl
+  592  mahout fkmeans -i reuters-vectors/tfidf-vectors/ -c reuters-fkmeans-centroids -o reuters-fkmeans-clusters -cd 1.0 -k 21 -m 2 -ow -x 10 -dm org.apache.mahout.common.distance.SquaredEuclideanDistanceMeasure
+  593  ls
+  594  cd ..
+  595  ls
+  596  cp -R mahout/ /Users/billw/Documents/old/mahout/mahout-backup
+  597  ls
+  598  cd mahout/
+  599  ls
+  600  history
+MacBook-Air:mahout billw$ 
