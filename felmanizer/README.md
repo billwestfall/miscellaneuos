@@ -18,6 +18,7 @@ Alda
 2. Git clone this repository.  For pre-alpha purposes (aka a hack) please place the files from this repo in the same directory as your Alda install above
 
 3. Open a terminal and cd to your Alda directory. Run the following command to make the shell script executable:
+ 
    `chmod +x feldmanizer.sh`
    
 4. Finally run the following from terminal:
