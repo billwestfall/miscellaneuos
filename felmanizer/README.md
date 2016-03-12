@@ -5,11 +5,14 @@ This is the Feldmanizer, in which I attempt to create such music.
 
 ## Requirements
 Linux or Mac system (or Windows with full Cygwin installed)
+
 Ruby
+
 Alda
 
 ## Installation
 1. You will first need to install and configure Alda : https://github.com/alda-lang/alda
+
    *NOTE:* for best results please follow the Alda directions to install the FluidR3 soundfont
    
 2. Git clone this repository.  For pre-alpha purposes (aka a hack) please place the files from this repo in the same directory as your Alda install above
@@ -18,6 +21,8 @@ Alda
    `chmod +x feldmanizer.sh`
    
 4. Finally run the following from terminal:
+ 
+
    `./feldmanizer.sh`
    
 5. To exit the feldmanizer type CTL-C in the terminal window
