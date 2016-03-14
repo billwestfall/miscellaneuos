@@ -8,7 +8,7 @@ Since Lilypond ( http://www.lilypond.org/ ) uses a text input like Alda, it shou
 
 Ruby
 
-Lilypod ( http://www.lilypond.org/ )
+Lilypond ( http://www.lilypond.org/ )
 
 ## Instructions
 
