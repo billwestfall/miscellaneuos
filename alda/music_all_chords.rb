@@ -9,23 +9,23 @@ print "piano: (tempo! 20) "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :-, :+, :"", :"" ].sample
       print [ :"4", :"8", :"16", :"32", :"" ].sample
-      print "/"
+      print " / "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :-, :+, :"", :"" ].sample
       print [ :"4", :"8", :"16", :"32", :"" ].sample
-      print "/"
+      print " / "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :-, :+, :"", :"" ].sample
       print [ :"4", :"8", :"16", :"32", :"" ].sample
-      print "/"
+      print " / "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :-, :+, :"", :"" ].sample
       print [ :"4", :"8", :"16", :"32", :"" ].sample
-      print "/"
+      print " / "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :-, :+, :"", :"" ].sample
       print [ :"4", :"8", :"16", :"32", :"" ].sample
-      print "/"
+      print " / "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :-, :+, :"", :"" ].sample
       print [ :"4", :"8", :"16", :"32", :"" ].sample

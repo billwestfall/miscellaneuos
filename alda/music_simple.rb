@@ -3,8 +3,8 @@
 
 print "piano: (tempo! 40) "
   $i = 0
-    while $i < 320 do
-      print [ :o5, :o6, :o7, :o8, :o9, :<, :> ].sample
+    while $i < 640 do
+      print [ :o4, :o5, :o6, :o7, :o8, :<, :> ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :-, :+, :"", :"" ].sample
@@ -23,10 +23,10 @@ print "piano: (tempo! 40) "
 
     puts ""
     puts ""
-    print "celesta: (tempo! 40) "
+    print "midi-honky-tonk-piano: (tempo! 40) "
       $i = 0
-        while $i < 320 do
-          print [ :o5, :o6, :o7, :o8, :o9, :<, :> ].sample
+        while $i < 640 do
+          print [ :o4, :o5, :o6, :o7, :o8, :<, :> ].sample
           print " "
           print [ :a, :b, :c, :d, :e, :f, :g, ].sample
           print [ :-, :+, :"", :"" ].sample
