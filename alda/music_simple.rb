@@ -1,7 +1,7 @@
 
 #!/usr/bin/ruby
 
-print "piano: (tempo! 40) "
+print "piano: (tempo! 20) "
   $i = 0
     while $i < 640 do
       print [ :o3, :o4, :o5, :o6, :o7, :<, :> ].sample
@@ -23,7 +23,7 @@ print "piano: (tempo! 40) "
 
     puts ""
     puts ""
-    print "midi-honky-tonk-piano: (tempo! 40) "
+    print "midi-honky-tonk-piano: (tempo! 20) "
       $i = 0
         while $i < 640 do
           print [ :o3, :o4, :o5, :o6, :o7, :<, :> ].sample
@@ -45,7 +45,7 @@ print "piano: (tempo! 40) "
 
         puts ""
         puts ""
-        print "midi-bright-acoustic-piano: (tempo! 40) "
+        print "midi-bright-acoustic-piano: (tempo! 20) "
           $i = 0
             while $i < 640 do
               print [ :o3, :o4, :o5, :o6, :o7, :<, :> ].sample
