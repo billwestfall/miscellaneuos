@@ -45,7 +45,7 @@ print "piano: (tempo! 10) "
 
         puts ""
         puts ""
-        print "midi-string-ensemble-1: (tempo! 10) "
+        print "midi-string-ensemble-2: (tempo! 10) "
           $i = 0
             while $i < 640 do
               print [ :o2, :o3, :o4, :<, :> ].sample
