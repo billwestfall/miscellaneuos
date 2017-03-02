@@ -5,5 +5,5 @@ do
   rm -f looper.alda
   ruby music_song_slow.rb >> looper.alda
   alda up; alda play -f looper.alda
-  sleep 250
+  sleep 180
 done

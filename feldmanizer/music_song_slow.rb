@@ -3,7 +3,7 @@
 
 print "piano: (tempo! 40) "
   $i = 0
-    while $i < 240 do
+    while $i < 160 do
       print [ :o6, :o7, :o8, :o9, :o10, :<, :> ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
