@@ -2,6 +2,12 @@
 
 print "\\version \"2.18.2\""
 print "\n"
+print "\\paper {"
+print "\n"
+print "page-breaking = #ly:minimal-breaking"
+print "\n"
+print "}"
+print "\n"
 print "topNotes ="
 print "\n"
 print "\\absolute {"
@@ -25,7 +31,7 @@ print "  "
 #      print [ :"'", :"," ].sample
       print " "
       print ">"
-      print [ :"1 ", :"2 ", :"4 " ].sample
+      print [ :"4 ", :"8", :"16", :"32", :"64", :"128" ].sample
       $i +=1
     end
 print "\n"
@@ -56,7 +62,7 @@ print "  "
 #      print [ :"'", :"," ].sample
       print " "
       print ">"
-      print [ :"1 ", :"2 ", :"4 " ].sample
+      print [ :"4 ", :"8", :"16", :"32", :"64", :"128" ].sample
       $i +=1
     end
 print "\n"
