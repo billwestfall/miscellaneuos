@@ -16,7 +16,7 @@ print "  \\time 4/4"
 print "\n"
 print "  "
   $i = 0
-    while $i < 80 do
+    while $i < 20 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :"'", :",", :"''", :",,", :"" ].sample
@@ -32,6 +32,8 @@ print "  "
       print " "
       print ">"
       print [ :"4 ", :"8", :"16", :"32", :"64", :"128" ].sample
+#      print " "
+#      print "\\bar \"\" "
       $i +=1
     end
 print "\n"
@@ -47,7 +49,7 @@ print "  \\clef bass"
 print "\n"
 print "  "
   $i = 0
-    while $i < 80 do
+    while $i < 20 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [ :"'", :",", :"''", :",,", :"" ].sample
@@ -63,6 +65,8 @@ print "  "
       print " "
       print ">"
       print [ :"4 ", :"8", :"16", :"32", :"64", :"128" ].sample
+#      print " "
+#      print "\\bar \"\" "
       $i +=1
     end
 print "\n"
