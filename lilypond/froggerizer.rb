@@ -16,18 +16,22 @@ print "  \\time 4/4"
 print "\n"
 print "  "
   $i = 0
-    while $i < 20 do
+    while $i < 10 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
       print [ :"'", :",", :"''", :",,", :"" ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print ">"
@@ -49,18 +53,22 @@ print "  \\clef bass"
 print "\n"
 print "  "
   $i = 0
-    while $i < 20 do
+    while $i < 10 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
       print [ :"'", :",", :"''", :",,", :"" ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
+      print [:is, :es, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print ">"
