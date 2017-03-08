@@ -2,47 +2,47 @@
 
 print "\\version \"2.19.22\""
 print "\n"
-\include "english.ly"
+print "\\include \"english.ly\""
 print "\n"
-\header {
+print "\\header {"
 print "\n"
-  title = \markup { "nocte cadit" }
+print "title = \\markup { \"nocte cadit\" }"
 print "\n"
-  composer = "Bill Westfall"
+print "composer = \"Bill Westfall\""
 print "\n"
-}
-print "\n"
-
-\paper {
-print "\n"
-  paper-height = 4.6\in
-print "\n"
-  paper-width = 8.5\in
-print "\n"
-  indent = #0
-print "\n"
-  system-count = #2
-print "\n"
-}
+print "}"
 print "\n"
 
-\score {
+print "\\paper {"
 print "\n"
-  \\new PianoStaff = "pianostaff" \<\<
+print "paper-height = 4.6\\in"
 print "\n"
-#    \\new Staff = \"RH\" \\relative c\' {
+print "paper-width = 8.5\\in"
 print "\n"
-      \set midiInstrument = #"piano"
+print "indent = #0"
 print "\n"
-      \accidentalStyle Score.piano
+print " system-count = #2"
 print "\n"
-      \clef "treble"
+print "}"
 print "\n"
-      \time 4/4
+
+print "\\score {"
 print "\n"
-      \set Score.currentBarNumber = #1
+print "\\\\new PianoStaff = \"pianostaff\" \<\<"
 print "\n"
-      \tempo "sequitur" 4 = 60
+print "\\new Staff = \"RH\" \\relative c\' {"
+print "\n"
+print "     \\set midiInstrument = #\"piano\""
+print "\n"
+print "     \\accidentalStyle Score.piano"
+print "\n"
+print "     \\clef \"treble\""
+print "\n"
+print "      \\time 4\/4"
+print "\n"
+print "      \\set Score.currentBarNumber = #1"
+print "\n"
+print "     \\tempo \"sequitur\" 4 = 60"
 print "\n"
 print "  "
   $i = 0
@@ -107,20 +107,20 @@ print "\n"
       print "\n"
       print "}"
       print "\n"
-  >>
-  \layout { }
-  \midi {
-    \context {
-      \Staff
-      \remove "Staff_performer"
-    }
-    \context {
-      \Voice
-      \consists "Staff_performer"
-    }
-    \context {
-      \Score
-      tempoWholesPerMinute = #(ly:make-moment 72 2)
-    }
-  }
-}
+  print ">>"
+  print "\\layout { }"
+  print "\\midi {"
+  print " \\context {"
+  print "   \\Staff"
+  print "   \\remove \"Staff_performer\""
+  print "  }"
+  print " \\context {"
+  print "   \\Voice"
+  print "    \\consists \"Staff_performer\""
+  print " }"
+  print " \\context {"
+  print "   \\Score"
+  print "   tempoWholesPerMinute = #(ly:make-moment 72 2)"
+  print " }"
+  print "}"
+  print "}"
