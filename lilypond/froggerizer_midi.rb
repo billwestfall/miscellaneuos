@@ -49,19 +49,19 @@ print "  "
     while $i < 10 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-      print [:is, :es, ""].sample
+      print [:s, :f, ""].sample
       print [ :"'", :",", :"''", :",,", :"" ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-      print [:is, :es, ""].sample
+      print [:s, :f, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-      print [:is, :es, ""].sample
+      print [:s, :f, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-      print [:is, :es, ""].sample
+      print [:s, :f, ""].sample
 #      print [ :"'", :"," ].sample
       print " "
       print ">"
@@ -83,19 +83,19 @@ print "      \\time 4\/4"
           while $i < 10 do
             print "<"
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-            print [:is, :es, ""].sample
+            print [:s, :f, ""].sample
             print [ :"'", :",", :"''", :",,", :"" ].sample
             print " "
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-            print [:is, :es, ""].sample
+            print [:s, :f, ""].sample
       #      print [ :"'", :"," ].sample
             print " "
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-            print [:is, :es, ""].sample
+            print [:s, :f, ""].sample
       #      print [ :"'", :"," ].sample
             print " "
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
-            print [:is, :es, ""].sample
+            print [:s, :f, ""].sample
       #      print [ :"'", :"," ].sample
             print " "
             print ">"
@@ -108,19 +108,36 @@ print "      \\time 4\/4"
       print "}"
       print "\n"
   print ">>"
+  print "\n"
   print "\\layout { }"
+  print "\n"
   print "\\midi {"
+  print "\n"
   print " \\context {"
+  print "\n"
   print "   \\Staff"
+  print "\n"
   print "   \\remove \"Staff_performer\""
+  print "\n"
   print "  }"
+  print "\n"
   print " \\context {"
+  print "\n"
   print "   \\Voice"
+  print "\n"
   print "    \\consists \"Staff_performer\""
+  print "\n"
   print " }"
+  print "\n"
   print " \\context {"
+  print "\n"
   print "   \\Score"
+  print "\n"
   print "   tempoWholesPerMinute = #(ly:make-moment 72 2)"
+  print "\n"
   print " }"
+  print "\n"
   print "}"
+  print "\n"
   print "}"
+  print "\n"
