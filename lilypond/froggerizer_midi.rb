@@ -28,7 +28,7 @@ print "\n"
 
 print "\\score {"
 print "\n"
-print "\\\\new PianoStaff = \"pianostaff\" \<\<"
+print "\\new PianoStaff = \"pianostaff\" <<"
 print "\n"
 print "\\new Staff = \"RH\" \\relative c\' {"
 print "\n"
@@ -74,10 +74,10 @@ print "\n"
 print "}"
 print "\n"
 
-    \new Staff = "LH" \relative c, {
-      \set midiInstrument = #"piano"
-      \clef "bass"
-      \time 4/4
+print "    \\new Staff = \"LH\" \\relative c, {"
+print "     \\set midiInstrument = #\"piano\""
+print "     \\clef \"bass\""
+print "      \\time 4\/4"
       print "  "
         $i = 0
           while $i < 10 do
