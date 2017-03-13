@@ -6,7 +6,7 @@ print "\\include \"english.ly\""
 print "\n"
 print "\\header {"
 print "\n"
-print "title = \\markup { \"nocte cadit\" }"
+print "title = \\markup { \"Overture Colossale\" }"
 print "\n"
 print "composer = \"Bill Westfall\""
 print "\n"
@@ -30,7 +30,7 @@ print "\\score {"
 print "\n"
 print "\\new PianoStaff = \"pianostaff\" <<"
 print "\n"
-print "\\new Staff = \"RH\" \\relative c\' {"
+print "\\new Staff = \"RH\" \\absolute c\'\' {"
 print "\n"
 print "     \\set midiInstrument = #\"piano\""
 print "\n"
@@ -42,7 +42,7 @@ print "      \\time 4\/4"
 print "\n"
 print "      \\set Score.currentBarNumber = #1"
 print "\n"
-print "     \\tempo \"sequitur\" 4 = 20"
+print "     \\tempo \"sequitur\" 4 = 30"
 print "\n"
 print "  "
   $i = 0
@@ -54,15 +54,15 @@ print "  "
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [:s, :f, ""].sample
-#      print [ :"'", :"," ].sample
+      print [ :"'", :",", :"''", :",,", :"" ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [:s, :f, ""].sample
-#      print [ :"'", :"," ].sample
+      print [ :"'", :",", :"''", :",,", :"" ].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [:s, :f, ""].sample
-#      print [ :"'", :"," ].sample
+      print [ :"'", :",", :"''", :",,", :"" ].sample
       print " "
       print ">"
       print [ :"4 ", :"8", :"16", :"32", :"64", :"128" ].sample
@@ -74,7 +74,7 @@ print "\n"
 print "}"
 print "\n"
 
-print "    \\new Staff = \"LH\" \\relative c, {"
+print "    \\new Staff = \"LH\" \\absolute c, {"
 print "     \\set midiInstrument = #\"piano\""
 print "     \\clef \"bass\""
 print "      \\time 4\/4"
@@ -88,15 +88,15 @@ print "      \\time 4\/4"
             print " "
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
             print [:s, :f, ""].sample
-      #      print [ :"'", :"," ].sample
+            print [ :"'", :",", :"''", :",,", :"" ].sample
             print " "
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
             print [:s, :f, ""].sample
-      #      print [ :"'", :"," ].sample
+            print [ :"'", :",", :"''", :",,", :"" ].sample
             print " "
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
             print [:s, :f, ""].sample
-      #      print [ :"'", :"," ].sample
+            print [ :"'", :",", :"''", :",,", :"" ].sample
             print " "
             print ">"
             print [ :"4 ", :"8", :"16", :"32", :"64", :"128" ].sample
@@ -133,7 +133,7 @@ print "      \\time 4\/4"
   print "\n"
   print "   \\Score"
   print "\n"
-  print "   tempoWholesPerMinute = #(ly:make-moment 20 2)"
+  print "   tempoWholesPerMinute = #(ly:make-moment 30 2)"
   print "\n"
   print " }"
   print "\n"
