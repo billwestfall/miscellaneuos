@@ -30,7 +30,7 @@ print "\\score {"
 print "\n"
 print "\\new PianoStaff = \"pianostaff\" <<"
 print "\n"
-print "\\new Staff = \"RH\" \\absolute c\'\' {"
+print "\\new Staff = \"RH\" \\relative c\' {"
 print "\n"
 print "     \\set midiInstrument = #\"piano\""
 print "\n"
@@ -39,6 +39,14 @@ print "\n"
 print "     \\clef \"treble\""
 print "\n"
 print "      \\time 4\/4"
+print "\n"
+print "       \\key "
+key = [ :a, :b, :c, :d, :e, :f, :g, ].sample
+print key
+print "        \\"
+signature = [ :major, :minor ].sample
+print signature
+      print "  "
 print "\n"
 print "      \\set Score.currentBarNumber = #1"
 print "\n"
@@ -74,10 +82,14 @@ print "\n"
 print "}"
 print "\n"
 
-print "    \\new Staff = \"LH\" \\absolute c, {"
+print "    \\new Staff = \"LH\" \\relative c, {"
 print "     \\set midiInstrument = #\"piano\""
 print "     \\clef \"bass\""
 print "      \\time 4\/4"
+print "       \\key "
+print key
+print "        \\"
+print signature
       print "  "
         $i = 0
           while $i < 10 do
