@@ -1,6 +1,7 @@
 
 #!/usr/bin/ruby
-
+$j = 0
+while $j < 10
       print "<"
   $i = 0
     while $i < 10 do
@@ -16,3 +17,5 @@
     end
           print ">"
           puts ""
+$j +=1
+end
