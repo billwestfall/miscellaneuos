@@ -27,3 +27,4 @@ Alda
    `./feldmanizer.sh`
    
 5. To exit the feldmanizer type CTL-C in the terminal window
+____________________________________________________________
