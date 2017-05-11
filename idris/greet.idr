@@ -1,4 +1,4 @@
-module Greet
+module Main
 
-greet : IO ()
-greet = putStrLn "What is your name? "
+main : IO ()
+main = putStrLn "What is your name? "
