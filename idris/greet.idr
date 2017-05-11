@@ -1,4 +1,4 @@
-module Main
+module Greet
 
 greet : IO ()
 greet = do putStr "What is your name? "
