@@ -1,3 +1,4 @@
+// created by running: idris --codegen javascript hello_world.idr -o hello.js
 /** @constructor */
 var i$VM = function() {
   this.valstack = {};
