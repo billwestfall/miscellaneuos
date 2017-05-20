@@ -1,0 +1,9 @@
+MacBook-Air:git-walk billw$ git rev-parse HEAD
+f8bb48d2cf7f05268e088be02ddaa768e67a0abf
+MacBook-Air:git-walk billw$ git cat-file -p f8bb48d2cf7f05268e088be02ddaa768e67a0abf
+tree 2c2f94e745842bf9f353f22f2c184262d0793d6d
+parent 6bbcd0d785fd8156715b1dda5e3dbe58c579991f
+author EC2 Default User <ec2-user@ip-172-31-22-177.ap-northeast-1.compute.internal> 1461997037 +0000
+committer EC2 Default User <ec2-user@ip-172-31-22-177.ap-northeast-1.compute.internal> 1461997037 +0000
+
+File from Tokyo
