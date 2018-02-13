@@ -1,4 +1,4 @@
-import {} from "update.js"
+import {} from 'underscore.js';
 function unsplat(fun) { return function() {
 return fun.call(null, _.toArray(arguments)); };
 }
