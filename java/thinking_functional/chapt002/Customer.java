@@ -1,5 +1,6 @@
 import java.util.ArrayList; import java.util.List;
 public class Customer {
+public static void customer(String[] args) {
 static public ArrayList<Customer> allCustomers = new ArrayList<Customer>(); public Integer id = 0;
 
 public String name = "";
@@ -27,4 +28,4 @@ if(customer.enabled) { outList.add(customer.domain);
 } }
 return outList; }
   /* TODO: Add a main function */
-}
+} }
