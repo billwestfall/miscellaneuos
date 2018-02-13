@@ -15,3 +15,4 @@ if (wordMap.get(word) == null) { wordMap.put(word, 1);
             }
 } }
 return wordMap;
+} }
