@@ -8,3 +8,6 @@ indexOfAny: (input: String, searchChars: Seq[Char])Seq[Int]
 
 scala> indexOfAny("zzabyycdxx", "by")
 res1: Seq[Int] = Vector(3, 4, 5)
+
+scala> indexOfAny("sfhsiugbadsgavbjkfhsdjlfkha", "a")
+res2: Seq[Int] = Vector(8, 12, 26)
