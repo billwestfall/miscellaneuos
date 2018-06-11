@@ -1,0 +1,53 @@
+Idris> true
+No such variable true
+Idris> True
+True : Bool
+Idris> 4
+4 : Integer
+Idris> 4.567
+4.567 : Double
+Idris> 4.5678
+4.5678 : Double
+Idris> 'c'
+'c' : Char
+Idris> "Watson"
+"Watson" : String
+Idris> it
+"Watson" : String
+Idris> 4+5
+9 : Integer
+Idris> True || False
+True : Bool
+Idris> True && False
+False : Bool
+Idris> not True
+False : Bool
+Idris> :"a" + "clue"
+Unrecognized command: "a"
+Idris> :"a" ++ "clue"
+Unrecognized command: "a"
+Idris> "a" ++ "clue"
+"aclue" : String
+Idris> "a" ++ " clue"
+"a clue" : String
+Idris> it ++ "," ++ it
+"a clue,a clue" : String
+Idris> 5 + 6/2
+Can't find implementation for Fractional Integer
+Idris> 5+6/2
+Can't find implementation for Fractional Integer
+Idris> 5+(6/2)
+Can't find implementation for Fractional Integer
+Idris> 4.56>4
+True : Bool
+Idris> 8==8.0
+True : Bool
+Idris> 1 + "one"
+String is not a numeric type
+Idris> 'a' + "bc"
+(input):1:5:When checking an application of function Prelude.Interfaces.+:
+        Type mismatch between
+                String (Type of "bc")
+        and
+                Char (Expected type)
+Idris> 
