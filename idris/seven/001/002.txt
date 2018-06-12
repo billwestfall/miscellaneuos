@@ -1,0 +1,17 @@
+Idris> :l functions
+*functions> stringFunction
+"A Study in Scarlet" : String
+*functions> intFunction
+1887 : Int
+*functions> :t stringFunction
+stringFunction : String
+*functions> :t intFunction
+intFunction : Int
+*functions> :t (\x => x * 0.5)
+\x => x * 0.5 : Double -> Double
+*functions> map(\x => x * 0.5)[3.14,2.72]
+[1.57, 1.36] : List Double
+*functions> map(\x => x * 0.5)[3.14,2.78]
+[1.57, 1.39] : List Double
+*functions> :t the
+the : (a : Type) -> a -> a
