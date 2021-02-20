@@ -8,14 +8,7 @@ program tsunami
 
   real :: dt ! time step [s]      
   real :: dx ! grid spacing [m]   
-  real :: c ! phase speed [m/s]   
-
-  grid_size = 100        
-  num_time_steps = 100   
-
-  dt = 1.   
-  dx = 1.   
-  c=1.   
+  real :: c ! phase speed [m/s]     
   
   integer, parameter :: grid_size = 100 
   integer, parameter :: num_time_steps = 100
