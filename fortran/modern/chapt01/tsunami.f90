@@ -3,8 +3,8 @@ program tsunami
   implicit none        
 
   integer :: i, n             
-  integer :: grid_size        
-  integer :: num_time_steps   
+!  integer :: grid_size        
+!  integer :: num_time_steps   
 
 !  real :: dt ! time step [s]      
 !  real :: dx ! grid spacing [m]   
