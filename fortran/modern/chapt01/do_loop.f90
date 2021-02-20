@@ -6,10 +6,10 @@ program do_loop
   real, parameter :: j=3
   real, parameter :: m=4
 
-  outer_loop: do j, j*m    
-    inner_loop: do i, i*m     
+  do j, j*m    
+    do i, i*m     
       print *, 'i, j =', i, j      
-    end do inner_loop           
-  end do outer_loop
+    end do          
+  end do
 
 end program do_loop
