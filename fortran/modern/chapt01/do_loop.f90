@@ -2,11 +2,12 @@ program do_loop
 
   implicit none
 
-  real :: i, j
-  real, parameter :: m=2
+  real, parameter :: i=2
+  real, parameter :: j=3
+  real, parameter :: m=4
 
-  outer_loop: do j=1, j*m    
-    inner_loop: do i=1, i*m     
+  outer_loop: do j, j*m    
+    inner_loop: do i, i*m     
       print *, 'i, j =', i, j      
     end do inner_loop           
   end do outer_loop
