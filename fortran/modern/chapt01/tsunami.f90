@@ -16,5 +16,10 @@ program tsunami
   dt = 1.   
   dx = 1.   
   c=1.   
+  
+  integer, parameter :: grid_size = 100 
+  integer, parameter :: num_time_steps = 100
+  
+  real, parameter :: dt = 1, dx = 1,c=1
 
 end program tsunami
