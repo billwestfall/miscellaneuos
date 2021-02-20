@@ -1,22 +1,24 @@
-program tsunami
+program tsunami     
 
-  implicit none        
-
-  integer :: i, n             
-!  integer :: grid_size        
-!  integer :: num_time_steps   
-
-!  real :: dt ! time step [s]      
-!  real :: dx ! grid spacing [m]   
-!  real :: c ! phase speed [m/s]     
- 
-!  dt = 1.
-!  dx = 1.
-!  c=1.
+  implicit none       
   
-  integer, parameter :: grid_size = 100 
-  integer, parameter :: num_time_steps = 100
+  integer :: i, n                                         
   
-  real, parameter :: dt = 1, dx = 1,c=1
+  integer, parameter :: grid_size = 100                   
+  integer, parameter :: num_time_steps = 100              
+  
+  real, parameter :: dt=1!timestep [s]               
+  real, parameter :: dx=1!gridspacing [m]            
+  real, parameter ::c=1!background flow speed [m/s]  
+  
+  real :: h(grid_size), dh(grid_size)                     
+  
+  integer, parameter :: icenter = 25                      
+  real, parameter :: decay = 0.02 
+  
+  if (grid_size <= 0) stop 'grid_size must be > 0'          
+  if (dt <= 0) stop 'time step dt must be > 0'              
+  if (dx <= 0) stop 'grid spacing dx must be > 0'           
+  if (c <= 0) stop 'background flow speed c must be > 0'
 
 end program tsunami
