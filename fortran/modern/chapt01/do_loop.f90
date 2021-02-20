@@ -5,8 +5,8 @@ program do_loop
   real :: i, j
   real, parameter :: m=2
 
-  outer_loop: do j=1, jm    
-    inner_loop: do i=1, im     
+  outer_loop: do j=1, j*m    
+    inner_loop: do i=1, i*m     
       print *, 'i, j =', i, j      
     end do inner_loop           
   end do outer_loop
