@@ -6,9 +6,13 @@ program tsunami
   integer :: grid_size        
   integer :: num_time_steps   
 
-  real :: dt ! time step [s]      
-  real :: dx ! grid spacing [m]   
-  real :: c ! phase speed [m/s]     
+!  real :: dt ! time step [s]      
+!  real :: dx ! grid spacing [m]   
+!  real :: c ! phase speed [m/s]     
+ 
+!  dt = 1.
+!  dx = 1.
+!  c=1.
   
   integer, parameter :: grid_size = 100 
   integer, parameter :: num_time_steps = 100
