@@ -26,7 +26,7 @@ program tsunami
   
   print *, 0, h     
   
-  time_loop: don=1,num_time_steps    
+  time_loop: do n=1,num_time_steps    
   
     dh(1) = h(1) - h(grid_size)      
     
