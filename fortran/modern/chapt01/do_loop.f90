@@ -1,11 +1,11 @@
 program do_loop
 
-  INTEGER :: i = 0
+  integer :: i = 0
 
-  DO 
+  do 
     i = i + 1
-    WRITE(*, *) i
-    IF (MOD(i, 6) == 0) EXIT
-  END DO
+    write(*, *) i
+    if (mod(i, 6) == 0) EXIT
+  end do
 
 end program do_loop
