@@ -22,7 +22,7 @@ print key_sig
 print "\n"
 print "  "
   $i = 0
-    while $i < 10 do
+    while $i < 100 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [:is, :es, ""].sample
@@ -64,7 +64,7 @@ print "  \\clef bass"
 print "\n"
 print "  "
   $i = 0
-    while $i < 10 do
+    while $i < 100 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [:is, :es, ""].sample
