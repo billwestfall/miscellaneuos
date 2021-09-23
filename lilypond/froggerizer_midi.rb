@@ -54,7 +54,7 @@ print "     \\tempo \"sequitur\" 4 = 30"
 print "\n"
 print "  "
   $i = 0
-    while $i < 10 do
+    while $i < 100 do
       print "<"
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
       print [:s, :f, ""].sample
@@ -92,7 +92,7 @@ print "        \\"
 print signature
       print "  "
         $i = 0
-          while $i < 10 do
+          while $i < 100 do
             print "<"
             print [ :a, :b, :c, :d, :e, :f, :g, ].sample
             print [:s, :f, ""].sample
