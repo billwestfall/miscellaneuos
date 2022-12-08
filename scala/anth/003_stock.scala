@@ -10,9 +10,8 @@ def getPrice(ticker : String) = {
   val data = io.Source.fromURL(url).mkString
   val price = data.split(",")(4).toDouble
   StockPrice(ticker, price)
-}
-
-val stockPrices = new ArrayBuffer[StockPrice]
+  
+  val stockPrices = new ArrayBuffer[StockPrice]
 for(ticker <- tickers) {
   stockPrices += getPrice(ticker)
 }
@@ -24,4 +23,5 @@ var highestPricedStock = StockPrice("", 0.0)
 for(stockPrice <- stockPricesLessThan500) {
   highestPricedStock =
     pickHighPriced(highestPricedStock, stockPrice)
+}
 }
