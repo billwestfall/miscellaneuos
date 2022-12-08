@@ -1,4 +1,12 @@
 import scala.collection.mutable.ArrayBuffer
+
+def getPrice(ticker : String) = {
+  val url = s"http://download.finance.yahoo.com/d/quotes.csv?s=${ticker}&f=snbaopl1"
+  val data = io.Source.fromURL(url).mkString
+  val price = data.split(",")(4).toDouble
+  StockPrice(ticker, price)
+}
+
 val stockPrices = new ArrayBuffer[StockPrice]
 for(ticker <- tickers) {
   stockPrices += getPrice(ticker)
