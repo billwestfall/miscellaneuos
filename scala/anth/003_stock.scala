@@ -1,5 +1,10 @@
 import scala.collection.mutable.ArrayBuffer
 
+case class StockPrice(ticker : String, price : Double) {
+  def print =
+    println("Top stock is " + ticker + " at price $" + price)
+}
+
 def getPrice(ticker : String) = {
   val url = s"http://download.finance.yahoo.com/d/quotes.csv?s=${ticker}&f=snbaopl1"
   val data = io.Source.fromURL(url).mkString
