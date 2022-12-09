@@ -7,4 +7,4 @@ def isPrime(number : Int) = {
 def primes(number : Int) : Stream[Int] = {
   if(isPrime(number)) number #:: primes(number + 1) else primes(number + 1)
 }
-println(primes(1).take(10).toList
+println(primes(1).take(10).toList)
