@@ -1,3 +1,5 @@
+/* tslint:disable:no-unused-variable */
+
 object Priceb {
     def main(args: Array[String]) = {
         val prices = List(10, 20, 15, 30, 45, 25, 82)
