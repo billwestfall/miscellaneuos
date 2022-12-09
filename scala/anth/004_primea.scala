@@ -7,7 +7,7 @@ def isPrime(number : Int) = {
   number > 1 && !hasFactorsOtherThan1AndItself
 }
 
-def primes(number : Int) : Stream[Int] = {
+def primes(number : Int) : LazyList[Int] = {
   if(isPrime(number)) number #:: primes(number + 1) else primes(number + 1)
 }
 println(primes(1).take(10).toList)
