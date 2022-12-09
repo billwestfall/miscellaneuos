@@ -1,5 +1,7 @@
 object Primea {
 
+val number = List(1)
+  
 def isPrime(number : Int) = {
   val sqrtOfNumber = math.sqrt(number).toInt
   val hasFactorsOtherThan1AndItself =
