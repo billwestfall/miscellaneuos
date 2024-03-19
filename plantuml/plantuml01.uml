@@ -1,0 +1,14 @@
+@startuml
+!pragma useVerticalIf on
+start
+  if (this condition one?) then (yes)
+    :do something;
+  elseif (condition 2?) then (yes)
+    :do something else;
+  elseif (condition 3?) then (yes)
+    :do one more thing;
+  else
+  endif
+:finish up;
+end
+@enduml
