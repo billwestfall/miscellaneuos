@@ -1,0 +1,28 @@
+@startuml
+|Action|
+|Question|
+
+start
+if (A1) then (yes)
+  |Action|
+  :B1;
+else (no)
+endif
+
+|Question|
+if (A2) then (yes)
+  |Action|
+  :B2;
+  else (no)
+endif
+
+|Question|
+if (A3) then (yes)
+  |Action|
+  :B3;
+  else (no)
+endif
+
+:C1;
+end
+@enduml
