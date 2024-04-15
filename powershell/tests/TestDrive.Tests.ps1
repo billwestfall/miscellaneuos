@@ -11,6 +11,8 @@ BeforeAll {
 }
 }
 
+GetFullPath
+
 Describe "Add-Footer" {
     BeforeAll {
         $testPath = "TestDrive:\test.txt"
