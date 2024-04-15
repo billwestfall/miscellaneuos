@@ -3,4 +3,4 @@ function Add-Numbers($Numbers) {
 }
 
 $NumbersArray = 1, 2, 3
-AddNumbers $NumbersArray
+Add-Numbers $NumbersArray
