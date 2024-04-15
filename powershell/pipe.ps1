@@ -8,4 +8,4 @@ function Greet-User {
         "Hello, $Name"
     }
 }
-"John" | GreetUser
+"John" | Greet-User
