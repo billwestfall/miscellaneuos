@@ -3,6 +3,12 @@ BeforeAll {
     function Add-Footer($path, $footer) {
         Add-Content $path -Value $footer
     }
+    function GetFullPath {
+    Param(
+        [string] $Path
+    )
+    return $Path.Replace('TestDrive:', (Get-PSDrive TestDrive).Root)
+}
 }
 
 Describe "Add-Footer" {
