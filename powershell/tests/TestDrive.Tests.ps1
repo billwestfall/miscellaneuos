@@ -5,15 +5,6 @@ BeforeAll {
     }
 }
 
-function GetFullPath {
-    Param(
-        [string] $Path
-    )
-    return $Path.Replace('TestDrive:', (Get-PSDrive TestDrive).Root)
-}
-
-GetFullPath
-
 Describe "Add-Footer" {
     BeforeAll {
         $testPath = "TestDrive:\test.txt"
