@@ -1,3 +1,3 @@
 Run scripts on a Mac like:
 
-```pwsh multiple.ps1
+`pwsh multiple.ps1`
