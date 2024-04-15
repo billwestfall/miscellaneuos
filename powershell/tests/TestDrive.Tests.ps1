@@ -3,6 +3,7 @@ BeforeAll {
     function Add-Footer($path, $footer) {
         Add-Content $path -Value $footer
     }
+    
     function GetFullPath {
     Param(
         [string] $Path
