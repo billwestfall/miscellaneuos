@@ -5,4 +5,4 @@ function View-Objects {
 }
  
 # Calling the function
-View_Objects
+View-Objects
