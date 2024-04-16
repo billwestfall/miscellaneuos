@@ -1,6 +1,6 @@
 # Define function
 function View-Part {
-    $currentPart= Get-Process | Get-Member | Out-Host -Property Name
+    $currentPart= Get-CimInstance -Class Win32_LogicalDisk | Select-Object -Property Name, FreeSpace
     Write-Host "$currentPart"
 }
  
