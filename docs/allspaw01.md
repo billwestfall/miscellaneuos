@@ -1,4 +1,4 @@
-## John Allspaw and crisis management
+## John Allspaw on complexity and crisis management
 
 1. “In crisis management, be quick with the facts, slow with the blame.” — Leonard Saffir
 
@@ -60,3 +60,68 @@ Large companies including Google have adopted blameless postmortems to more effe
 
 But what if I told you that there are people who have not adopted this format, even after years of existence. And that there are people advocating against the blameless postmortem itself.
 
+One of these positions in the "blame aware" concept of J. Paul Reed ( https://techbeacon.com/app-dev-testing/blameless-postmortems-dont-work-heres-what-does ). 
+
+This states that blame is genetically hard wired (!) into humans, and because of this we need to include at the least an awareness of blame.
+
+One important aspect of this is that it places a uncessarily high value on the outcome of a retrospective. If you hypothetically put an incredible amount of effort into post mortems, and you feel that they are so top of list for your company that you do want an aspect of blame assigned to them, they must have a high value? A pay back to customers is proof of the high value?
+
+The reality is that while you are muddled in overly concerned, blame filled post mortems, your competitors are actually moving ahead with functionality. This is not a hypothetical point. I have witnessed this myself.
+
+It's also incorrect to assume that humans are "hard wired" for blame, and especially untrue that we would be hard wired all at at the same level. When I was part of production down issues, and when I was part of the retrospectives on them, blame was very bottom of the list for me.
+
+If you are aware of the concept of the "middle child" personality, you may connect the dots to the issue of blame. 
+
+It was once believed, at least at a pop psychology level, that the middle child was the peace maker of the family. The elder children would be vying for control and attention, the younger children would be doted on as the "babies" in the family, and the middle children would be left to be the peacemakers in conflict between these two parties, and between parental conflict as well.
+
+I am both a middle child and a prototypical middle child personality, even though I think the idea is debunked as a universal rule now.
+
+What that means is that my perception of the value of blame is very different than that of J. Paul Reed.  The world and the people in it are much more complex than we can ascribe a universal identifier to.
+
+This doesn't necessarily mean that the current state of blameless post mortems are the only way forward, and are at an end of development. This is an area ripe for value in continuing to investigate and improve.
+
+2. "...no work in complex systems can be prescribed"
+
+Think of a system that you may believe to be much simpler than a live software production stack. For the sake of argument, let's say the electrical system in your car.
+
+If you have an internal combustion engine car, you may visualize the electric part of your car as the battery, your lights are looped into the circuit, it provides a spark to start your engine, and it will power other components like your radio or cigarette lighter outlet.
+
+To jump to the point I am making: when will your electrical system fail, how and where and when?
+
+I think all of us would recognize this as an unanswerable question. Unless we continously meter all of the electrical lines in our car, and know the previous history of the components (i.e. what are the specific components installed in the car, how old are they, what is their rated life, and has any other stress beside age affected them), we won't be able to answer this question.
+
+This sometimes has failed even in the ultra critical realm of airplane maintenance. Components in airplanes cannot fail randomly because they will lead to disastrous results. But they have failed in the past, even some components failed after inspection. This will often lead to stricted regulations so that these components are checked more often and at a stricter level.
+
+To make sure the electrical components in your car are assured on not failing randomly, you would have to have the equivalent level of monitoring for your car. This would be prohibitively expensive to operate your car, even if you could find the experts to do the work on a continuous basis. 
+
+We have to assume that a component will fail at some point in the future, possibly at a less than optimal time.
+
+Now picture a live production product with dozens of microservices across a distributed cloud environment. What will fail next?
+
+Of course we don't know the answer to the question, because if we did, we would proactively fix the issue. There would no longer be live production bugs and site down issues. 
+
+So why are we surprised when there is a site down issue?
+
+The answer is that we have an incorrect cognitive bias ahead of time. 
+
+Most likely the key issue is the oversimplification fallacy, also called the fallacy of single cause. 
+
+If you have ever been part of a retrospective that used the "Five Whys" method, you may have been integrating this fallacy. The goal of the Five Whys is to get to the root cause of an issue, aka a single cause.
+
+So why is the industry using a technique that is based on a logical fallacy?
+
+The answer(s) may be complex as well.
+
+Most likely leaders who accept these processes sometimes do so via individual recommendation or story driven reasons. Something along the lines of "Five why works well for us" or "You can get every answer via five whys". If we accept these statements without a rigorous analysis of the truth and options, it is absolutely possible to base your process on a fallacy.
+
+I think it's also true that leaders like these methods because the alternative is a complex answer that may take a lot of work, time and effort to implement. The temptation of a simple, single point answer to a complex issue will always be alluring.
+
+So what is the correct way to anticipate and prepare for, and post mortem issues?
+
+The answer is actually already been hinted at, in that other disciplines besides software development are working on these same problems. In fact, fields like medicine, air travel and the military have been investigating crisis and failure for an extremely long time, and have some fairly advanced work done in the field.
+
+Complex challenges require a complex solution. If a production failure isn't as simple as an upper vs lower case character change in code, but instead delves into deeper issues of why the business is driving the specific change that failed, and if there are any related architectural choices that contributed to it, there must be the courage to allow these issues to be followed to a logical conclusion.
+
+For example, if a change in code leads to a break, ask the engineer for the ticket that led to the change. Follow the ticket to the people who approved the change , and what their motivations were. If those people point to a leader at a higher level, set up a call with that leader(s). And so on. If you are the business leader for the company, invest in and allow this analysis to happen. Don't filter alternative thoughts. Get involved with people that you don't normally talk to in the business, and get their perspective. If you chase these complex issues with a complex and multivariate solution, you may in fact create a new standard for how issues are tracked and measured that could then be shared industry wide.
+
+3. Anomaly detection in software is, and always will be, an unsolved problem. 
