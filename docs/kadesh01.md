@@ -48,3 +48,22 @@ If you are lucky, you will make the larger critical deadlines. There will have b
 
 Now to ask a critical question, that may seem like a troll but is asked in all seriousness: why did you make a project plan?
 
+If we look at both the story of the Battle of Kadesh and the project, nothing went according to plan. There is a significant amount of work involved in strategic planning. 
+
+What's interesting is that despite overwhelming failure of plans to follow the steps that are laid out, organizations continue to invest in project planning.
+
+It might be valuable to investigate the reasons why the plans failed.
+
+In the case of the Battle of Kadesh, the issue is that the plan cannot take into account the actions of the enemy. The enemy has a motivation to make the plans of the opponent fail.
+
+Imagine a game of chess. Chess is played with perfect information where the opponents can see all of the moves. Your goal in the game is to thwart your opponents moves, this will give you the advantage to win.
+
+Now going back to the battle, it is a confrontation of incomplete information. You can't see all of the moves of your opponent, and you don't know what their plans are.
+
+Before the battle, you have a plan in place about how things will proceed. You may even have some contingincies for unexpected events. You will have no way of knowing all of the choices and no way of getting all of the real time information. Quickly your plan will be thwarted and you will have to adapt in real time.
+
+Think of the project in the same way. It's virtually guaranteed that some or most of your plans will not go as planned. Some individuals and teams will not do things that are expected, and when these teams have items that interact then they will start to fail in complex ways.
+
+There may be a way of handling the issue that isn't a traditional project plan.
+
+If we have learned from agile that we need to adapt as quickly as possible to a changing environment with changing requirements, then we can also use project management in an agile manner.
