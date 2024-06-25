@@ -510,3 +510,259 @@ operations are ongoing
     - manage engagement
     - monitor engagement
 
+# project envts
+
+# enterprise envt factors
+
+1.  directly or indirectly influence
+2.  PMs have no direct control
+3.  from outside the project
+4.  rules and policies
+5.  regulations and laws
+
+- internal EEF
+    a.  created by org but outside project
+    b.  org culture, structure
+    c.  physical location
+    d.  infrastructure, like tools and technology
+    e.  software
+    f.  cfg management
+    g.  resource availability
+    h.  capability of team members
+    
+- external EEF
+    a.  marketplace
+    b.  cultural influences
+    c.  laws and regulations
+    d.  commercial DBs
+    e.  academic research
+    f.  govt and industry standards
+    g.  financial, location, taxes, exchange rate
+    h.  physical location
+
+# org process assets
+
+- resources within an org
+- leveraged or researched
+- historic information
+- standards and policies (see EEFs)
+- guidelines and measurements
+- templates for docs
+- guidelines for PM process
+
+- common OPAs
+    1.  financial controls
+    2.  standard forms and procedures
+    3.  change control, comms, risk control processes
+    4.  closing procedures
+
+# processes, policies and procedures
+
+- internal 
+    a.  within best practice framework
+    b.  how your org manages projects
+    c.  can be EEF or OPA
+
+- initiating and planning
+    a.  tailoring criteria
+    b.  org standards , like HR and confidentiality process
+    c.  life cycle procedures
+    d.  PM or project templates
+    e.  preapproved supplier list or existing contracts
+
+- executing, monitoring and controlling
+
+    a.  change control
+    b.  doc modify steps
+    c.  traceability
+    d.  financial controls
+    e.  defect mgt
+    f.  resource availability controls
+    g.  comm reqs
+    h.  approval process
+    i.  templates
+    j.  guidelines
+    k.  validation procedures
+
+# org knowledge repos
+
+- cataloging
+- archiving
+- retrieving
+- OPAs are part of repos
+- archive at closure
+
+- OKR examples
+    a.  files from past projects
+    b.  lessons learned
+    c.  defect DBs
+    d.  config mgt DB
+    e.  financial DB
+
+# org systems
+
+- structure and governance
+- permissions
+- work authorization
+- employee discipline
+- defined by org mgt
+
+- system dynamics
+    a.  component relationship
+        1.  depts
+        2.  projects
+        3.  mgt and employees
+
+    b.  bureacracy
+    c.  politics
+    d.  policies
+
+# frameworks
+
+- governance
+- how to operate
+- framework is the org structure
+
+1.  rules and policies
+2.  procedures
+3.  cultural norms
+4.  systems and processes
+5.  framework influences objectives, risk, performance
+
+# mgt elements
+
+- common governance
+    alignment
+    risk
+    performance
+    comms
+- ech org must tailor governance
+- division of work
+- work authority
+- responsibilites
+- discipline of action
+- direction
+- unity of command
+- unity of direction
+- pay
+- optimal use of resources
+- clear comm channels
+- right materials
+- fair and equal treatment
+- security
+- safety
+- open contributions
+- optimal morale
+
+- org and project mgt
+    completing projects for others
+    completing projects internally
+    completing projects as needed
+    customers can be internal or external
+
+# org structure types
+
+- how org is built
+- influences power for pM
+- affects the PM approach
+
+- factors
+    objectives alignment
+    capabilities
+    control, efficiency
+    decision escalation
+    scope of authority
+    simplicity of design
+    delegation capabilities
+    accountability
+    responsibility
+    adaptibility
+    efficiency
+    cost
+    physical location
+    clear comms
+
+- org structure types
+    1.  organic or simple
+        flexible
+        PM little authority
+        low dedicated resources
+        org owner owns budget
+    2.  functional (centralized)
+        clear division
+        PMs little authority
+        reports to functional mgr
+        project coordinator
+        part time role
+        functional mgr owns budget
+    3.  multidivision
+        replication of functions
+        similar to functional
+        PM little authority
+        project coordinator
+        part time resources
+        functional mgr owns budget
+    4.  weak matrix
+        blend of duties
+        PM has limited authority
+        mgt of a part time project team
+        project coordinator
+        functional mgr owns budget
+    5.  balanced matrix
+        PM low to moderate authority
+        mgt of a part time team
+        PM and functional mgr shares budget
+    6.  strong matrix
+        PM has moderate to high power
+        full time project team
+        full time as PM
+        PM manages the budget
+    7.  project oriented
+        work on project dedicated
+        PM has complete power
+        high level of autonomy
+        team and PM full time
+        PM controls budget
+    8.  virtual
+        network within the org
+        point of contact for each dept
+        comms can be challenge
+        PM has low authority
+        shares authority with functional mgr
+        PM can be FT or PT
+        team members may be part time
+    9.  hybrid
+        blend of any of these
+        special projects
+    10. PMO structure
+        PMO over all projects
+        uniform approach
+        share resources across projects
+        change control mgt
+
+# PMO
+
+- uniform approach
+- support for PM
+- assets
+    training
+    software
+    templates
+    approaches
+
+- Directive PMO
+    PMO control is high
+    PM is part of PMO
+
+- Controlling PMO
+    defines governance
+    hands off governance to PMO
+    define and hand off to PMs
+
+- Supportive PMO
+    coach PM
+    don't control PMO
+    advice 
+    best practice
+
+# role of PM
