@@ -366,3 +366,147 @@ operations are ongoing
     3.  rapid iterations
     4.  backlog of requirements
     5.  changes to scope are expected
+
+# business documents
+
+1.  project business case
+2.  project charter
+3.  PM plan
+4.  benefits management plan
+
+- for performance
+
+    1.  phase gates
+    2.  actual performance compared to documents
+    3.  decisions of comparison include
+        a.  continue
+        b.  modify phase and continue
+        c.  end the project
+        d.  remain in phase
+        e.  repeat the phase
+
+# Project business case
+
+- economic feasability
+- validity of project
+- helps future project decisions
+- maintained througout project
+- sponsor accountable for maintenance
+- PM recommends changes
+- business case can be at program level
+
+1.  business needs
+    a.  what is prompting action
+    b.  statement documenting the problem or opportunity
+    c.  stakeholders affacted
+    d.  identify the scope
+
+2.  determination
+    a.  fits strategies, goals and opportunities
+    b.  is it addressing a root cause
+    c.  gap analysis
+    d.  known risks
+    e.  critical success factors
+    f.  decision critieria
+
+3.  analysis of a situation
+    a.  required - address the problem
+    b.  desired - like to address the problem
+    c.  optional - not essential to address the problem
+
+4.  recommendations:
+    a.  do nothing
+    b.  do minimum
+    c.  do more than minimum
+
+# project benefits management plan
+
+- a benefit is a project outcome that provides value
+- document used to define:
+    a.  create the project benefits
+    b.  maximize the project benefits
+    c.  sustain the benefits
+
+- target benefits
+    a.  tangible
+    b.  intangible
+- strategic
+    a.  align with business strategies
+- timeframe
+    a.  benefits by phase, short, long, ongoing
+
+- metrics - measure the benefits
+- assumptions
+- risks
+
+# knowledge areas
+
+1.  integration management
+    - develop charter
+    - develop plan
+    - direct and manage the work
+    - manage project knowledge
+    - monitor and control
+    - perform change control
+    - close project
+
+2.  scope management
+    - plan scope
+    - collect reqs
+    - define scope
+    - create WBS
+    - validate scope
+    - control scope
+
+3.  schedule management
+    - plan schedule
+    - define activities
+    - sequence activities
+    - estimate durations
+    - develop schedule
+    - control schedule
+
+4.  cost management
+    - plan cost mgt
+    - estimate cost
+    - determine cost
+    - control cost
+
+5.  quality mgt
+    - plan
+    - manage
+    - control
+
+6.  resource mgt
+    - plan
+    - estimate activity resources
+    - acquire resources
+    - develop team
+    - manage team
+    - control resources
+
+7.  communications mgt
+    - plan
+    - manage
+    - monitor
+
+8.  risk mgt
+    - plan
+    - ID risks
+    - qualitative risk analysis
+    - quantitative risk analysis
+    - risk response
+    - implement risk response
+    - monitor risk
+
+9.  procurement mgt
+    - plan
+    - conduct
+    - control
+
+10. stakeholder mgt
+    - ID stakeholders
+    - plan engagement
+    - manage engagement
+    - monitor engagement
+
